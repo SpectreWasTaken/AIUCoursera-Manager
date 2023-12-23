@@ -1,0 +1,21 @@
+GET http://localhost:3000/GET-CONN-STATE
+
+###
+POST http://localhost:3000/ADD-NEW-COURSE 
+Content-Type:application/json
+
+{
+    "courseName": "C++",
+    "courseId": "CSE420"
+}
+
+###
+GET http://localhost:3000/GET-ALL-COURSES
+
+###
+
+POST http://localhost:3000//ASSIGN-COURSE-TO-INST/id
+
+###
+
+GET http://localhost:3000/GET-ALL-INSTRUCTORS
